@@ -4,11 +4,6 @@ import Menu from './menu';
 import DishCard from './DishCard.jsx';
 
 
-const lightningy = {
-  "name": "Lightningy Mushroom",
-  "image": "images/lightningy.jpg",
-  "description": "this is a mushroom puff dish",
-}
 
 const Header = () => {
   return (
@@ -33,7 +28,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <DishCard props={lightningy} />
+      <Menu />
+      
     </div>
   );
 }

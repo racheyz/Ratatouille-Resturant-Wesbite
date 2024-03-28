@@ -1,10 +1,11 @@
 import React from 'react';
+import "./menu.css";
 
 const DishCard = ({props}) => {
     return (
         <div className="menu-item-container">
             <div>
-                <img src={props.image} alt={props.name}/>
+                <img src={props.image} alt={props.name} width = "280" height = "230"/>
             </div>
 
             <div>

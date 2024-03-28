@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Lakki+Reddy&display=swap');
+
+.menu {
+    padding:10px;
+}
+
+h1 {
+    font-family: "Lakki Reddy", serif;
+}
+
+.food-category {
+    display: flex;
+}
+.menu-item-container {
+    background-color: lightgray;
+    padding: 10px 16px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
