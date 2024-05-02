@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Lakki+Reddy&display=swap');
+
+.introduction {
+    padding-top: 30px;
+}
+
+.cover-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.first-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo1 {
+    max-width: 40%;
+    height: auto;
+}
+
+#staff-panel {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#location-panel {
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: px;
+}
+
+#resturant-photo {
+    width: 500px;
+    height:auto;
+}
+
+.location-board {
+    background-color: rgb(129, 25, 11);
+    display: flex;
+    gap: 50px;
+    padding: 80px 200px;
+}
+
+.location-board h2 {
+    color: rgb(243, 207, 78);
+    font-family: "Ingrid Darling", cursive;
+    font-size: 50px;
+}
+
+.location-board p {
+    color: white;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    margin-top:300px;
+    background-color: rgb(129, 25, 11);
+    width: 100%;
+}
+
+
+

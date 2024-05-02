@@ -1,23 +1,23 @@
 import React from 'react';
-import DishCard from './DishCard';
+import DishCard from '../components/DishCard';
 import "./menu.css";
 
 const lightningy = {
     "name": "Lightningy Mushroom",
-    "image": "https://2.bp.blogspot.com/-bQjyaTv9yIY/VOEWfUblMUI/AAAAAAAAKgs/iyRkrrgNJAc/s280/mushrooms%2Bcloseup.jpg",
+    "image": "https://cdn.vox-cdn.com/thumbor/vHLCXfMAC54bWxFOauSW3KefO5I=/0x0:1342x703/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22875715/mushroom_cooking.jpg",
     "description": "this is a mushroom dish",
 }
 
 const soup = {
     "name": "Chef's Soup of The Day",
-    "image": "https://thestarvingchefblog.com/wp-content/uploads/2023/03/soup-from-ratatouille.jpg",
+    "image": "https://twocrumbsup.co/wp-content/uploads/2022/06/soup-gif-e1658912983830.gif",
     "description": "Chef Remy's soup of the day",
 }
 
 
 const board = {
     "name": "Emile's Tasting Platter",
-    "image": "https://static.wixstatic.com/media/bd6f00_402d6d93757345bda4581bdf0fbd74fe~mv2.jpg/v1/fill/w_980,h_661,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bd6f00_402d6d93757345bda4581bdf0fbd74fe~mv2.jpg",
+    "image": "https://www.animationartconservation.com/images/176_2.jpg?crc=268502145",
     "description": "Fruit and Cheese Board",   
 }
 
@@ -37,6 +37,18 @@ const special = {
     "name": "Special Order",
     "image": "https://cdn.quizly.co/wp-content/uploads/2018/06/14164523/12d2.jpg",
     "description": "A personal linguini spin on sweetbreads ala Gusteau",
+}
+
+const cheval = {
+    "name": "Cheval Blanc",
+    "image": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/34/2017/06/Chateau-Cheval-Blanc-1947.jpg",
+    "description": "The classic Cheval Blanc 1947"
+}
+
+const latour = {
+    "name": "Chateau Latour 1961",
+    "image": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/34/2017/05/Chateau-Latour-1961.jpg",
+    "description": "The classic Chateau Latour 1961"
 }
 
 const Appetizers = () => {
@@ -60,6 +72,14 @@ const Entrees = () => {
     )
 }
 
+const Drinks = () => {
+    return (
+        <div className='food-category'>
+            <DishCard props={cheval} />
+            <DishCard props={latour} />
+        </div>
+    )
+}
 
 const Menu = () => {
     return (
@@ -68,6 +88,8 @@ const Menu = () => {
             <Appetizers />
             <h1>Entrees</h1>
             <Entrees />
+            <h1>Drinks</h1>
+            <Drinks />
         </div>
     );
 }
